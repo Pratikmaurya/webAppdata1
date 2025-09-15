@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Reads the connection string Azure automatically created for you.
-const dbConnectionString = process.env.DefaultConnection;
+const dbConnectionString = process.env.SQLAZURECONNSTR_DefaultConnection;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
