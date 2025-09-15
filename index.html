@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Entry</title>
+    <style>body { font-family: sans-serif; display: grid; place-content: center; height: 100vh; margin: 0; }</style>
+</head>
+<body>
+    <div>
+        <h1>Enter some text</h1>
+        <form action="/submit" method="POST">
+            <input type="text" name="userInput" placeholder="Enter text here..." required>
+            <button type="submit">Save to Database</button>
+        </form>
+    </div>
+</html>
+</body>
